@@ -1,0 +1,11 @@
+
+:root{
+    --blue:rgb(29, 155, 240);
+    --textWhite: rgb(217, 217, 217);
+    --textColorSecondary: rgb(110, 118, 125);
+}
+
+body{
+    background-color:#000 !important;
+}
+
