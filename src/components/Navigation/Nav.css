@@ -1,27 +1,95 @@
 .nav-sec{
     color: var(--textWhite);
-    width: 275px;
+    width: 250px;
     fill:  var(--textWhite);
+    height:100vh;
 }
 
 li{
     list-style-type: none;
     height: 3.125rem;
 }
+
+.items{
+    margin-left: .8rem;
+}
 li:hover{
-    background-color: rgba(255, 255, 255, 0.13);
+    background-color: rgba(255, 255, 255, 0.089);
     transition: all 0.3s;
     border-radius: 100px;
 }
 
 a span{
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 400;
     color: var(--textWhite);
     margin-left: 1.3rem;
     font-family: "Open Sans";
 }
 
+nav{
+    width: 89%;
+}
+
+a{
+    pointer-events:none
+}
+
 svg{
     fill: var(--textWhite);
+}
+
+.logo-section{
+    padding: 0.7rem;
+}
+
+.logo-section:hover{
+    background-color: rgba(255, 255, 255, 0.089);
+    transition: all 0.3s;
+    border-radius: 100px;
+}
+
+.btn{
+    background-color: var(--blue);
+    font-size: 17px;
+    font-weight: 700;
+    border-radius: 999px;
+    padding:.8rem 0;
+}
+
+.btn:hover{
+    background-color:rgb(23, 130, 201);
+    transition: all 0.3s;
+}
+
+.active {
+    font-weight: 700;
+    font-size: 20px;
+}
+.activeLi{
+    background-color: rgba(255, 255, 255, 0.089);
+    transition: all 0.3s;
+    border-radius: 100px;
+}
+
+.pimg{
+    width: 40px;
+    height: 40px;
+}
+
+.profil-name{
+    font-weight: 700;
+    font-size:15px;
+}
+
+.profil-nic{
+    font-weight: 400;
+    font-size: 15px;
+    color: #6e767d;
+}
+
+.profile-section:hover{
+    background-color: rgba(255, 255, 255, 0.089);
+    transition: all 0.3s;
+    border-radius: 100px;
 }

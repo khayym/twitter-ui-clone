@@ -42,6 +42,26 @@ const MessageIcon = ({size}) =>{
     )
 }
 
+const BookmarkIcon = ({size}) =>{
+    return (
+        <Svg className="" size={size}>
+            <g><path d="M19.9 23.5 c -0.157 0 -0.312 -0.05 -0.442 -0.144 L 12 17.928 l -7.458 5.43 c -0.228 0.164 -0.53 0.19 -0.782 0.06 c -0.25 -0.127 -0.41 -0.385 -0.41 -0.667 V 5.6 c 0 -1.24 1.01 -2.25 2.25 -2.25 h 12.798 c 1.24 0 2.25 1.01 2.25 2.25 v 17.15 c 0 0.282 -0.158 0.54 -0.41 0.668 c -0.106 0.055 -0.223 0.082 -0.34 0.082 Z M 12 16.25 c 0.155 0 0.31 0.048 0.44 0.144 l 6.71 4.883 V 5.6 c 0 -0.412 -0.337 -0.75 -0.75 -0.75 H 5.6 c -0.413 0 -0.75 0.338 -0.75 0.75 v 15.677 l 6.71 -4.883 c 0.13 -0.096 0.285 -0.144 0.44 -0.144 Z"></path></g>
+        </Svg>    
+    )
+}
+
+
+const ListIcon = ({size}) =>{
+    return (
+        <Svg className="" size={size}>
+            <g>
+            <path d="M 19.75 22 H 4.25 C 3.01 22 2 20.99 2 19.75 V 4.25 C 2 3.01 3.01 2 4.25 2 h 15.5 C 20.99 2 22 3.01 22 4.25 v 15.5 c 0 1.24 -1.01 2.25 -2.25 2.25 Z M 4.25 3.5 c -0.414 0 -0.75 0.337 -0.75 0.75 v 15.5 c 0 0.413 0.336 0.75 0.75 0.75 h 15.5 c 0.414 0 0.75 -0.337 0.75 -0.75 V 4.25 c 0 -0.413 -0.336 -0.75 -0.75 -0.75 H 4.25 Z"></path>
+            <path d="M17 8.64H7c-.414 0-.75-.337-.75-.75s.336-.75.75-.75h10c.414 0 .75.335.75.75s-.336.75-.75.75zm0 4.11H7c-.414 0-.75-.336-.75-.75s.336-.75.75-.75h10c.414 0 .75.336.75.75s-.336.75-.75.75zm-5 4.11H7c-.414 0-.75-.335-.75-.75s.336-.75.75-.75h5c.414 0 .75.337.75.75s-.336.75-.75.75z"></path>
+            </g>
+        </Svg>    
+    )
+}
+
 
 const ProfileIcon = ({size}) =>{
     return (
@@ -69,6 +89,14 @@ const Logo = ({size}) =>{
     )
 }
 
+const DotsIcon = ({size}) =>{
+    return (
+        <Svg className="" size={size}>
+            <g><circle cx="5" cy="12" r="2"></circle><circle cx="12" cy="12" r="2"></circle><circle cx="19" cy="12" r="2"></circle></g>
+        </Svg>    
+    )
+}
+
 
 export const Icon = ({name ,size = '25'}) => {
 
@@ -77,9 +105,12 @@ export const Icon = ({name ,size = '25'}) => {
         sharp: SharpIcon,
         notfy:NotfyIcon,
         message: MessageIcon,
+        bookmark:BookmarkIcon,
+        list:ListIcon,
         profile: ProfileIcon,
         more: MoreIcon,
         logo:Logo,
+        dots:DotsIcon,
 	}
 
 	const Component = icons[name]
