@@ -1,3 +1,27 @@
 .nav-sec{
     color: var(--textWhite);
+    width: 275px;
+    fill:  var(--textWhite);
+}
+
+li{
+    list-style-type: none;
+    height: 3.125rem;
+}
+li:hover{
+    background-color: rgba(255, 255, 255, 0.13);
+    transition: all 0.3s;
+    border-radius: 100px;
+}
+
+a span{
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--textWhite);
+    margin-left: 1.3rem;
+    font-family: "Open Sans";
+}
+
+svg{
+    fill: var(--textWhite);
 }
