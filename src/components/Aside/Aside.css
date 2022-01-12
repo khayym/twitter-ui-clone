@@ -1,3 +1,31 @@
+*:focus {
+    outline: none;
+}
+
 .aside-sec{
     width:350px;
+}
+
+.search-sec{
+    padding:10px 12px;
+    border-radius: 5rem;
+    background-color:#202327;
+    border: 1px solid #202327;
+}
+
+input{
+    background-color:#20232700;
+    font-size: 15px;
+    color: var(--textWhite);
+    border:0px solid #fff;
+  
+}
+
+svg g path{
+    fill:rgb(110, 118, 125);
+}
+
+.search-sec:focus-within{
+    border: 1px solid var(--blue);
+    background-color:#000;
 }

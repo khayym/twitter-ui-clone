@@ -7,7 +7,7 @@ export default class Main extends Component {
         const {col} = this.props;
 
         return (
-            <div className={`bg-success col-${col} main-sec`}>
+            <div className={`border col-${col} main-sec`}>
                 <h2>Main</h2>
             </div>
         )

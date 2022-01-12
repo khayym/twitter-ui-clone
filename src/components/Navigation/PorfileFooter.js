@@ -4,8 +4,6 @@ import {Icon} from '../İcon'
 
 export default class PorfileFooter extends Component {
     render() {
-
-        console.log(this.props);
         return (
             <section className='d-flex flex-row justify-content-between p-2  mt-1 align-items-center'>
                 <div className="profil-img d-flex">
