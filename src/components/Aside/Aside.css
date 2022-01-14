@@ -22,7 +22,7 @@ input{
 }
 
 svg g path{
-    fill:rgb(110, 118, 125);
+    fill:rgb(217, 217, 217);
 }
 
 .search-sec:focus-within{

@@ -1,0 +1,76 @@
+.homeText{
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--textWhite);
+}
+
+.homeText:hover{
+    cursor: pointer;
+}
+
+.headerIcon:hover{
+    background-color: rgba(255, 255, 255, 0.089);
+    cursor: pointer;
+}
+
+.twitMainImg img{
+    height: 48px;
+    width: 48px;
+}
+
+.btn-everyone{
+    border-radius: 15px;
+    width:170px;
+    height:22px;
+}
+
+.btn-everyone:hover{
+    background-color:#1d9cf02c;
+    transition: all 0.5s
+}
+.btn-everyone span{
+    color:rgb(29, 155, 240);
+    font-size: 14px;
+    font-weight: 700 !important;
+    overflow-wrap: break-word;
+}
+
+
+.mainSection svg g path{
+    fill:#1d9bf0 !important;
+}
+
+.typingArea input{
+    height:56px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.twitFooter{
+    /* border-top:  solid rgb(83, 100, 113);   */
+}
+
+.tFooterIcons:hover{
+    cursor: pointer;    
+}
+
+.liner{
+    height:1px;
+    background-color:rgb(83, 100, 113);
+    width: 90%;
+}
+
+#ss{
+    width: 24px !important;
+    height: 24px !important;
+    border-radius: 1px solid #fff !important;
+ 
+}
+
+#ss:hover{
+    cursor: pointer;
+}
+
+.tFooterBtns button{
+    height:20px;
+}

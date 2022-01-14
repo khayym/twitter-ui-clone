@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
+import Widgets from './Main/Widgets.js';
 import './Main/Main.css'
+import Twits from './Main/TwitsComponents/Twits.js';
 
 export default class Main extends Component {
     render() {
@@ -8,7 +10,8 @@ export default class Main extends Component {
 
         return (
             <div className={`border col-${col} main-sec`}>
-                <h2>Main</h2>
+                <Twits />
+                <Widgets />
             </div>
         )
     }
