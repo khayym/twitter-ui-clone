@@ -37,7 +37,7 @@ export default class MainSection extends Component {
                         <div className="tFBtnsRightIcon me-3 d-flex justify-content-center align-items-center" id='ss'>
                         <Icon name='add' size='16'/>
                         </div>
-                        <button className='btn btn-primary d-flex align-items-center justify-content-center py-1'><span className="px-2">Tweet</span></button>
+                        <button className='btn btn-primary d-flex align-items-center justify-content-center py-1 me-2'><span className="px-3">Tweet</span></button>
                 </div>
 
                </div>

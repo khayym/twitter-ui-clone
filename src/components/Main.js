@@ -9,7 +9,7 @@ export default class Main extends Component {
         const {col} = this.props;
 
         return (
-            <div className={`border col-${col} main-sec`}>
+            <div className={`col-${col} main-sec`}>
                 <Twits />
                 <Widgets />
             </div>

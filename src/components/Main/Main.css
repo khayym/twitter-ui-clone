@@ -1,3 +1,7 @@
 .main-sec{
     width: 640px;
+    border: 1px solid rgba(255, 255, 255, 0.075)
+}
+.forWidget{
+    border-right: 1px solid #000;
 }

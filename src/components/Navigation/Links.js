@@ -7,8 +7,8 @@ export default class Links extends Component {
         const {name, icon, active, onMenuSectionClick} = this.props
         const isActive = active === name
         return (
-            <li className={`d-flex align-items-center ${isActive && 'activeLi'} my-1`} onClick={() => onMenuSectionClick(name)}>
-                <a href={name} className='text-decoration-none'>
+            <li className={`d-flex align-items-center nav-li ${isActive && 'activeLi'} my-1`} onClick={() => onMenuSectionClick(name)}>
+                <a href={name} className='text-decoration-none links-a'>
                     <div className='d-flex align-items-center justify-content-center items'>
                         <Icon name={icon} size='27' />
                         <span className={isActive && 'active'}>{name}</span>

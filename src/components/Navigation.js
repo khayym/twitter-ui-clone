@@ -67,7 +67,7 @@ export default class Navigation extends Component {
                 <div className="logo-section">
                     <Icon name='logo' size='31'/>
                 </div>
-                <nav className='mb-5'>
+                <nav className='mb-5 navigation-nav'>
                     <ul className='p-0 w-100'>
                         {LinksItems.map(({lName,icon}) => (
                                <Links

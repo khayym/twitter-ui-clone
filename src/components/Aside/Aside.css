@@ -21,6 +21,9 @@ input{
   
 }
 
+ul{
+    list-style-type: none;
+}
 svg g path{
     fill:rgb(217, 217, 217);
 }
@@ -28,4 +31,58 @@ svg g path{
 .search-sec:focus-within{
     border: 1px solid var(--blue);
     background-color:#000;
+}
+.trands-sec{
+    background-color:#15181c;
+    border-radius: 1rem;
+}
+
+.trends-h2{
+    color: rgb(217, 217, 217);
+    font-size: 20px;
+    font-weight: 800;
+}
+
+
+.forSicon{
+    width:2rem !important;
+    height:2rem !important;
+    border-radius: 5rem;
+    transition: all 0.2s;
+}
+.forSicon:hover{
+    background-color:rgba(255, 255, 255, 0.075);
+    cursor: pointer;
+}
+
+
+
+.trends-li-content h5{
+    color: #6e767dc4;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 0.4 !important;
+}
+
+.trends-li-content h4{
+    font-size: 15px;
+    color: rgb(217, 217, 217);
+    font-weight: 500;
+}
+
+.trends-main ul li:hover{
+    cursor: pointer;
+    background-color:rgba(255, 255, 255, 0.034);
+    transition: all 0.3s;
+}
+
+.footerLinks a,h6{
+    font-size: 13px;
+    font-weight: 400;
+    color: #6e767dc4;
+    text-decoration: none;
+}
+
+.footerLinks a:hover{
+    text-decoration:underline;
 }
